@@ -18,6 +18,6 @@ def iniciar():
   lista_o.append(lista[0])
   sorted(lista_o)
   ordenar_dicotomia(lista, lista_o)
-  print("Así quedaría la lista ordenada usando solo esta(método sorted)" + str(sorted(lista)))
-  print("Así quedaría la lista ordenada con la ayuda de otra lista y dicotomía" + str(lista_o))
+  print("Así quedaría la lista ordenada usando solo esta(método sorted):\n" + str(sorted(lista)))
+  print("La lista ordenada con la ayuda de otra lista y dicotomía queda igual:\n" + str(lista_o))
 iniciar()

@@ -13,10 +13,11 @@ def ordenar_dicotomia(lista1, lista2):
           break
 
 def iniciar():
-  lista = ["medium", "adiós", "3", "bebé", "ola", "guerra", "espectro", "5", "sed", "secta", "código", "confusión", "2", "clara"]
-  lista_o = []
+  lista = ["medium", "adiós", "3", "bebé", "ola", "guerra", "espectro", "5", "sed", "secta", "código", "confusión", "2", "clara"] #lista modificable(o str o int/float)
+  lista_o = [] #lista modificable(o str o int/float)(podrían ponerse elementos adicionales y ordenaría todo junto)
   lista_o.append(lista[0])
+  sorted(lista_o)
   ordenar_dicotomia(lista, lista_o)
-  print(sorted(lista))
-  print(str(lista_o))
+  print("Así quedaría la lista ordenada usando solo esta(método sorted)" + sorted(lista))
+  print("Así quedaría la lista ordenada con la ayuda de otra lista y dicotomía" + str(lista_o))
 iniciar()

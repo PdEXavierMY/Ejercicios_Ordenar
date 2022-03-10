@@ -31,7 +31,7 @@ class Topologia():
       self.x = tareas[self.x-1][1][1]
     return lista
   
-  def activar(self):
+  def iniciar(self):
     print("La lista inicial de tareas con sus órdenes respectivos es:\n" + str(self.tareas))
     Topologia().orden_topologico(self.tareas, self.orden)
     print("La lista con las tareas ya ordenadas queda así:\n" + str(self.orden))

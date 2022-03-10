@@ -11,6 +11,7 @@ def ordenar_dicotomia(lista1, lista2):
         if j+1 > (len(lista2)-1) or (lista1[i] < lista2[j+1]):
           lista2.insert(j+1, lista1[i])
           break
+  return lista2
 
 def iniciar():
   lista = ["medium", "adiós", "3", "bebé", "ola", "guerra", "espectro", "5", "sed", "secta", "código", "confusión", "2", "clara"] #lista modificable(o str o int/float)
@@ -20,4 +21,3 @@ def iniciar():
   ordenar_dicotomia(lista, lista_o)
   print("Así quedaría la lista ordenada usando solo esta(método sorted):\n" + str(sorted(lista)))
   print("La lista ordenada con la ayuda de otra lista y dicotomía queda igual:\n" + str(lista_o))
-iniciar()

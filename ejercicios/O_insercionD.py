@@ -26,7 +26,7 @@ class Ordenar():
             break
     return lista2
   
-  def iniciar(self):
+  def ejecutar(self):
     print("La lista es la siguiente:\n" + str(self.lista))
     self.lista_o.append(self.lista[0])
     sorted(self.lista_o)

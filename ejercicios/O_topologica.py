@@ -16,7 +16,7 @@ def orden_topologico(tareas, lista):
     x = tareas[x-1][1][1]
   return lista
 
-def iniciar():
+def runnear():
   tareas = [["barrer",(8, 2)], #1
          ["fregar",(1, 6)], #2
          ["dormir",(5, 11)], #3

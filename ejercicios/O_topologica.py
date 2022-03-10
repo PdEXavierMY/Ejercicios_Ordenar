@@ -16,11 +16,11 @@ class Topologia():
   def orden_topologico(self, tareas, lista):
     self.x = ""
     for i in tareas:
-      if i[1][0] == 0:
+      if i[1][0] == 0: #tarea inicial primero
         lista.append(i[0])
         self.x = i[1][1]
         break
-    for j in range(0, len(tareas)-1):
+    for j in range(0, len(tareas)-1): #tareas posteriores y sin solucion
       if tareas[self.x-1][1][1] == "" or tareas[self.x-1][1][1] > (len(tareas)+2):
         lista.append("Orden interrumpido")
         print("Todas las tareas no pueden ordenarse(faltan tareas previas)")

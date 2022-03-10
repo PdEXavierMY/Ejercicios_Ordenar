@@ -2,29 +2,29 @@ import random
 
 class Especificaciones():
 
-  def craft_lista(self, l, minimol, maximol, minimos, maximos):
+  def craft_lista(self, l, minimol, maximol, minimos, maximos): #crea la lista aleatoria con los segmentos correspondientes
     self.lista = []
     for i in range(l):
-      self.lista.append(int(random.randint(minimol, maximol)))
+      self.lista.append(int(random.randint(minimol, maximol))) #lista aleatoria
     print("Esta es la lista inicial:\n" + str(self.lista))
     self.segmento = []
     self.n_random = int(input("¿Cuantos segmentos quieres formar dentro del segmento?(min 2): "))
-    for j in range(self.n_random):
+    for j in range(self.n_random): #segmentos de la lista
       if j == 0:
         self.intervalo1 = minimos
         self.intervalo2 = int(input("Especifica el limite del rango del " + str((j+1)) + " segmento del segmento: "))
-      elif j == self.n_random-1:
+      elif j == self.n_random-1: #último segmento
         self.intervalo1 = self.intervalo2+1
         self.intervalo2 = maximos
       else:
         self.intervalo1 = self.intervalo2+1
         self.intervalo2 = int(input("Especifica el limite del rango del " + str((j+1)) + " segmento del segmento: "))
       self.subsegmento = []
-      for z in range((self.intervalo1-1), self.intervalo2):
+      for z in range((self.intervalo1-1), self.intervalo2): #añade los segmentos
         self.subsegmento += [self.lista[z]]
       self.segmento += [self.subsegmento]
     self.lista.insert((minimos-1), self.segmento)
-    for y in range(minimos, (maximos+1)):
+    for y in range(minimos, (maximos+1)): #elimina los elementos que han sido introducidos al/los segmento/s
       self.lista.pop(minimos)
     return self.lista
   

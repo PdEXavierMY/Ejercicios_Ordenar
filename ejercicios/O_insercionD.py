@@ -4,7 +4,7 @@ class Ordenar():
     self.lista = ["medium", "adiós", "3", "bebé", "ola", "guerra", "espectro", "5", "sed", "secta", "código", "confusión", "2", "clara"] #lista modificable(o str o int/float)
     self.lista_o = [] #Podrían ordenarse junto a otros elementos
 
-  def ordenarlista(self, lista):
+  def ordenarlista(self, lista): #ordena en la propia lista
     for i in range(len(lista)):
       for j in range(i, len(lista)):
         if lista[j] < lista[i]:
@@ -13,7 +13,7 @@ class Ordenar():
   
   def ordenar_dicotomia(self, lista1, lista2):
     for i in range(1, len(lista1)):
-      self.mitad = int((len(lista2)-1)/2)
+      self.mitad = int((len(lista2)-1)/2) #compara los elementos de la lista con el elemento medio de la nueva lista en la que se apoya para ordenar
       if lista1[i] < lista2[self.mitad]:
         for j in range(self.mitad, -1, -1):
           if j-1 < 0 or (lista1[i] > lista2[j-1]):

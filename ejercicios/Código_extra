@@ -1,4 +1,4 @@
-Este es mi código inicial de la ordenacion por dicotomia recursivo que he cambiado a iterativo porque literalmente acaba con la capacidad de la CPU, PERO funciona.
+Este es mi código inicial de la ordenación por dicotomia recursivo que he cambiado a iterativo porque literalmente acaba con la capacidad de la CPU, PERO funciona.
 Pruebalo a tu gusto y riesgo :)
 
 def ordenar_dicotomia(n, m, lista1, lista2):

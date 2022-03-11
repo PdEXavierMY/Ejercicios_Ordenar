@@ -29,7 +29,7 @@ class Ordenar():
   def iniciar(self):
     print("La lista es la siguiente:\n" + str(self.lista))
     self.lista_o.append(self.lista[0])
-    sorted(self.lista_o)
+    sorted(self.lista_o)#sorted por si se quisieran ordenar los elementos de la lista inicial con otros elementos adicionales
     listadico = Ordenar().ordenar_dicotomia(self.lista, self.lista_o)
     print("Así quedaría la lista ordenada usando método sorted:\n" + str(sorted(self.lista)))
     print("Así quedaría la lista ordenada usando solo la propia lista):\n" + str(Ordenar().ordenarlista(self.lista)))

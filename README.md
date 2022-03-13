@@ -11,10 +11,18 @@ En el repositorio encontrarás tanto los UML como los flowcharts(también dispon
             La primera ordena la lista introducida previamente usando bucles que recorren esta lista y van comparando elemento a elemento.
   
             La segunda ordena la lista introducida previamente con ayuda de una lista en blanco a la que se le van metiendo los elementos de la primera. Este algoritmo compara cada vez que se introduce una palabra con la palabra que hay en la mitad de la lista y decide en base al BOOLEAN obtenido si introducirla hacia la derecha o hacia la izquierda(y la mueve en esa dirección hasta colocarla).
+            
+![D_flujo Ordenardicotomía](https://user-images.githubusercontent.com/91721699/158074879-190ab47b-3663-4ee6-879b-82ebef6530c4.jpg)
+
+
   
 2) Ejercicio de ordenación topológica:
 
         Mi interpretación de este ejercicio ha sido bastante simple. De una lista de tareas con un par de numeros asociados coge cada par de numeros y los compara basandose en la posicion que tiene la tarea(el par representa el antes y despues = tras establecer el 1º, comprueba los despues del par y busca el elemento en la posicion indicada, y así hasta llegar a elementos inexistentes o acabar de ordenar las tareas)
+        
+![D_flujo Topología](https://user-images.githubusercontent.com/91721699/158074902-4474ecee-a5e4-4507-a71c-d377f5482733.jpg)
+
+
 
 3) Ejercicio de especificaciones:
 
@@ -26,3 +34,5 @@ En el repositorio encontrarás tanto los UML como los flowcharts(también dispon
             -extrae el máximo(lo que mueve a la izquierda los elementos del subsegmento a la derecha de este)
  
             -introduce de nuevo ese máximo extraido a la derecha del todo del subsegmento
+
+![D_flujo Especificaciones](https://user-images.githubusercontent.com/91721699/158074921-5f0284ad-d6d0-489c-acf8-addeb9b620ff.jpg)

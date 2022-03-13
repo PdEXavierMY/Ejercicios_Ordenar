@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-13T18:30:17.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="FZUxgH_dUc5BYHvX_TKg" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-13T18:31:39.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="BOB1c_UOKW5yxJAO41M8" version="17.1.2" type="github">
   <diagram id="qSRQrlJX9_0Swp1Y0j3p" name="Page-1">
     <mxGraphModel dx="870" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="IgB4e4I31qFdb8WrfQhf-12" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Coger el máximo&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="337" y="880" width="154" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IgB4e4I31qFdb8WrfQhf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="IgB4e4I31qFdb8WrfQhf-13" target="IgB4e4I31qFdb8WrfQhf-14">
+        <mxCell id="IgB4e4I31qFdb8WrfQhf-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="IgB4e4I31qFdb8WrfQhf-13" target="IgB4e4I31qFdb8WrfQhf-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IgB4e4I31qFdb8WrfQhf-13" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Trasladar el máximo a la derecha del subsegmento&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -78,6 +78,29 @@
         </mxCell>
         <mxCell id="IgB4e4I31qFdb8WrfQhf-14" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Mostrar lista ya realizadas las especificaciones en cada subsegmento&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="304" y="1060" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IgB4e4I31qFdb8WrfQhf-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="IgB4e4I31qFdb8WrfQhf-27" target="IgB4e4I31qFdb8WrfQhf-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IgB4e4I31qFdb8WrfQhf-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="IgB4e4I31qFdb8WrfQhf-27" target="IgB4e4I31qFdb8WrfQhf-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IgB4e4I31qFdb8WrfQhf-27" value="¿Es el último subsegmento?" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="540" y="920" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IgB4e4I31qFdb8WrfQhf-31" value="NO" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="630" y="900" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IgB4e4I31qFdb8WrfQhf-32" value="SÍ" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="635" y="1080" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
